@@ -1,6 +1,7 @@
 import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
+
   return (
     <ul className="nav">
       <li className="nav-item">
