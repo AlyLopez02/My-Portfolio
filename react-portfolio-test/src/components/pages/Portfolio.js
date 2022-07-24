@@ -1,22 +1,44 @@
 import React from 'react';
+import Project from '../Project/Project'
+
+// images
+import adventure from '../../images/adventure-adviser.png';
+import cloud from '../../images/cloud-control.png';
+import quiz from '../../images/code-quiz.png'
+import planner from '../../images/daily-planner.png'
+import noteTaker from '../../images/note-taker.png';
+import passwordGenerator from '../../images/password-generator.png';
+
 
 export default function Portfolio() {
   return (
     <div>
       <h2>Portfolio</h2> 
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+
+      <Project name={'Adventure Adviser'} image={adventure} deployedApp={'https://jcdoran33.github.io/Adventure-Adviser/'} repo={'https://github.com/jcdoran33/Adventure-Adviser'}/>
+
+      <br />
+
+      <Project name={'Cloud Control'} image={cloud} deployedApp={'https://alylopez02.github.io/Cloud-Control/'} repo={'https://github.com/AlyLopez02/Cloud-Control'}/>
+
+      <br />
+
+      <Project name={'Code Quiz'} image={quiz} deployedApp={'https://alylopez02.github.io/Code-Quiz/'} repo={'https://github.com/AlyLopez02/Code-Quiz'}/>
+
+      <br />
+
+      <Project name={'Daily Planner'} image={planner} deployedApp={'https://alylopez02.github.io/Daily-Planner/'} repo={'https://github.com/AlyLopez02/Daily-Planner'}/>
+
+      <br />
+
+      <Project name={'Note Taker'} image={noteTaker} deployedApp={'https://note-taker-app-22.herokuapp.com/'} repo={'https://github.com/AlyLopez02/Note-Taker'}/>
+
+      <br />
+
+      <Project name={'Password Generator'} image={passwordGenerator} deployedApp={'https://alylopez02.github.io/Password-Generator-HW/'} repo={'https://github.com/AlyLopez02/Password-Generator-HW'}/> 
+
+      <br />
+
     </div>
   );
 }

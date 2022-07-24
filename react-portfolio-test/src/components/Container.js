@@ -33,10 +33,6 @@ export default function Container() {
   return (
     <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
-      {/* We are passing the currentPage from state and the function to update it */}
-      
-
-      {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
       <Footer />
     </div>
