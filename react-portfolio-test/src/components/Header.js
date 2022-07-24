@@ -4,7 +4,7 @@ import NavBar from './Navigation';
 
 export default function Header({ currentPage, handlePageChange }) {
   return (
-    <header>
+    <header className='d-flex justify-content-between'>
         <h1>Alyssa Lopez</h1>
         <NavBar currentPage={currentPage} handlePageChange={handlePageChange}/>
     </header>
