@@ -3,20 +3,23 @@ import React from 'react';
 export default function Resume() {
   return (
     <div>
-      <h2>Resume</h2> 
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+      <h2>Resume</h2>
+      {/* <p>
+        Click <a href='' download>here</a> to download my resume!
+      </p> */}
+
+      <h4>Proficiencies</h4>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Bootstrap</li>
+        <li>Bulma.io</li>
+        <li>JavaScript</li>
+        <li>SQL</li>
+        <li>React.js</li>
+        <li>GitHub</li>
+        <li>MongoDB</li>
+      </ul>
     </div>
   );
 }

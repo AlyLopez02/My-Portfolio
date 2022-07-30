@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
 // Components
-import NavBar from './Navigation';
 import Header from './Header';
 import Footer from './Footer';
 
