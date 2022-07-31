@@ -1,0 +1,5 @@
+.background-img {
+    background-image: url('../../images/footer.png');
+    min-height: 152px;
+    background-repeat: repeat;
+  }

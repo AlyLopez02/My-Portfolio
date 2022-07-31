@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 // Components
-import Header from './Header';
-import Footer from './Footer';
+import Header from './Header/Header';
+import Footer from './Footer/Footer';
 
 // Pages
 import About from './pages/About';

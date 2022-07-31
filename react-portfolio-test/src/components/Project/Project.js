@@ -5,21 +5,25 @@ import './styles.css';
 export default function Project({ name, image, deployedApp, repo, description, tech }) {
   return (
 
-    <div className='container'>
-      <img src={image} className='image' />
+    <div className='card card-size text-center m-4'>
+      <img src={image} className='image' alt={name} />
 
       <div className='overlay'>
 
-        <div>
+        <div >
+          <p>
 
-          <a href={deployedApp} className='text'>{name}</a>
+            <a href={deployedApp} className='text p-2 fs-3 fw-bold'>{name}</a>
 
-          <br />
+            <a href={repo} className='text fs-4'><i class="fa-brands fa-github"></i></a>
 
-          <a href={repo} className='text'>GitHub Repository</a>
+          </p>
 
-          <p>{description}</p>
-          <p>Technologies: {tech}</p>
+          <div className='container'>
+            <p className='fs-5'>{description}</p>
+            <p className='fw-bold fst-italic mb-0'>Technologies: </p>
+            <p>{tech}</p>
+          </div>
         </div>
       </div>
     </div>
