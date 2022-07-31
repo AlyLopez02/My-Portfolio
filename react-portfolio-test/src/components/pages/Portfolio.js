@@ -43,7 +43,7 @@ export default function Portfolio() {
           description={'This project is a quiz to help test the user on some coding questions.'}
           tech={'JavaScript'} />
 
-        <br />
+
 
         <Project
           name={'Daily Planner'}
@@ -53,7 +53,7 @@ export default function Portfolio() {
           description={'This enables the user to write down, edit, and save events for each hour of the day. It informs the user which hours are past, present, and future.'}
           tech={'Google Fonts, Font Awesome, and Bootstrap'} />
 
-        <br />
+
 
         <Project
           name={'Note Taker'}
@@ -63,7 +63,7 @@ export default function Portfolio() {
           description={'This project enables users to write, save, view, and delete notes.'}
           tech={'Express.js and generate-unique-id package'} />
 
-        <br />
+
 
         <Project
           name={'Password Generator'}
@@ -73,7 +73,7 @@ export default function Portfolio() {
           description={'This project generates a password based on user input regarding length and types of characters.'}
           tech={'JavaScript'} />
 
-        <br />
+
       </div>
     </div>
   );

@@ -2,8 +2,6 @@
     max-width: 45%;
 }
 
-
-
 .overlay {
     position: absolute;
     top: 0;
@@ -21,11 +19,49 @@
     align-items: center;
 }
 
-
 .card:hover .overlay {
     opacity: 1;
 }
 
-.text {
+.name-logo {
     color: white;
+    font-size:30px;
+    font-weight: bold;
+}
+
+.disappear {
+    display:block;
+}
+
+
+/* Responsive Styles */
+@media screen and (max-width: 1399px){
+    .card-size {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 435px) and (min-width:356px){
+    p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 355px) and (min-width: 335px){
+    p {
+        font-size: 10px;
+    }
+    .name-logo {
+        font-size: 10px;
+    }
+    .disappear {
+        display:none;
+    }
+}
+
+@media screen and (max-width: 335px){
+    p {
+        display:none;
+    }
+
 }

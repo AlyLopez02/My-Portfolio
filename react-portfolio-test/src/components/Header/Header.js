@@ -4,7 +4,7 @@ import './styles.css';
 
 export default function Header({ currentPage, handlePageChange }) {
   return (
-    <header className='d-flex justify-content-around align-items-center p-5 fs-5 background-img'>
+    <header className='d-flex justify-content-around align-items-center p-5 fs-5 background-img flex-wrap'>
         <h1>Alyssa Lopez</h1>
         <NavBar currentPage={currentPage} handlePageChange={handlePageChange}/>
     </header>

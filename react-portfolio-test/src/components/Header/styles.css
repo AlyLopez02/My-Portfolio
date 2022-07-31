@@ -1,5 +1,18 @@
 .background-img {
     background-image: url('../../images/header.png');
     min-height: 152px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+@media screen and (max-width: 1311px){
+  .background-img {
+    background-size: auto;
+  }
+}
+
+@media screen and (max-width: 575px){
+  .background-img {
     background-repeat: repeat;
   }
+}
