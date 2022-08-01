@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.32bf64b4.css",
-    "main.js": "/My-Portfolio/static/js/main.3225820b.js",
+    "main.css": "/My-Portfolio/static/css/main.feeb6f48.css",
+    "main.js": "/My-Portfolio/static/js/main.5f5b1f24.js",
     "static/media/Alyssa-Lopez.jpeg": "/My-Portfolio/static/media/Alyssa-Lopez.f6dcb186349879708aeb.jpeg",
     "static/media/adventure-adviser.png": "/My-Portfolio/static/media/adventure-adviser.17a1f87f897c4e137e36.png",
     "static/media/header.png": "/My-Portfolio/static/media/header.c1def72e76839faec248.png",
+    "static/media/footer.png": "/My-Portfolio/static/media/footer.b5ed7a93404e211c5784.png",
     "static/media/alyssa-lopez-resume.pdf": "/My-Portfolio/static/media/alyssa-lopez-resume.2d58cd4a176a9e74bc51.pdf",
     "static/media/cloud-control.png": "/My-Portfolio/static/media/cloud-control.9c7a3fc5eb0258b03162.png",
     "static/media/password-generator.png": "/My-Portfolio/static/media/password-generator.1a3e8b9e2d140bb79c1f.png",
@@ -12,11 +13,11 @@
     "static/media/daily-planner.png": "/My-Portfolio/static/media/daily-planner.bff5acf9ad1a8ee4af8a.png",
     "static/media/note-taker.png": "/My-Portfolio/static/media/note-taker.01cbeca0cca667e7299e.png",
     "index.html": "/My-Portfolio/index.html",
-    "main.32bf64b4.css.map": "/My-Portfolio/static/css/main.32bf64b4.css.map",
-    "main.3225820b.js.map": "/My-Portfolio/static/js/main.3225820b.js.map"
+    "main.feeb6f48.css.map": "/My-Portfolio/static/css/main.feeb6f48.css.map",
+    "main.5f5b1f24.js.map": "/My-Portfolio/static/js/main.5f5b1f24.js.map"
   },
   "entrypoints": [
-    "static/css/main.32bf64b4.css",
-    "static/js/main.3225820b.js"
+    "static/css/main.feeb6f48.css",
+    "static/js/main.5f5b1f24.js"
   ]
 }
