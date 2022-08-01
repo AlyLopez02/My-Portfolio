@@ -8,7 +8,7 @@ import Footer from './Footer/Footer';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
-import Resume from './pages/Resume';
+import Resume from './pages/Resume/Resume';
 
 export default function Container() {
   const [currentPage, setCurrentPage] = useState('About');

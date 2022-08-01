@@ -1,12 +1,13 @@
 import React from 'react';
+import resume from './alyssa-lopez-resume.pdf';
 
 export default function Resume() {
   return (
     <div className='container text-center'>
       <h2 className='m-3'><u>Resume</u></h2>
-      {/* <p className='mb-5'>
-        Click <a href='' download>here</a> to download my resume!
-      </p> */}
+      <p className='mb-5'>
+        Click <a href={resume} download>here</a> to download my resume!
+      </p>
 
       <h4 className='fst-italic'>Proficiencies</h4>
       <ul className='list-group mb-5'>
