@@ -29,5 +29,4 @@ Here is the link to the deployed application:
 <a href="https://alylopez02.github.io/My-Portfolio/">https://alylopez02.github.io/My-Portfolio/</a>
 
 ----------
-## *
-It is recommended that you simply browse the deployed application.
+#### * It is recommended that you simply browse the deployed application.
