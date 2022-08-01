@@ -26,7 +26,7 @@ Here is a screenshot of the deployed application:
 
 Here is the link to the deployed application:
 
-<a href="https://watch.screencastify.com/v/aF8u1gFhTSy3YTybpOWC">https://watch.screencastify.com/v/aF8u1gFhTSy3YTybpOWC</a>
+<a href="https://alylopez02.github.io/My-Portfolio/">https://alylopez02.github.io/My-Portfolio/</a>
 
 ## ----------
 ## *
