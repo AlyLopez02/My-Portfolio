@@ -13,7 +13,7 @@ import passwordGenerator from '../../images/password-generator.png';
 export default function Portfolio() {
   return (
     <div className='container'>
-      <h2 className='text-center m-3'><u>Portfolio</u></h2>
+      <h2 className='text-center m-5'><u>Portfolio</u></h2>
 
       <div className='d-flex flex-wrap justify-content-center'>
         <Project

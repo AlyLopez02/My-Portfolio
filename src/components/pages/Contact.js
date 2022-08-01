@@ -4,7 +4,7 @@ export default function Contact() {
 
   return (
     <div className='container align-items-center'>
-      <h2 className='text-center m-3'><u>Contact Page</u></h2>
+      <h2 className='text-center m-5'><u>Contact Page</u></h2>
 
       <div className='container mb-5'>
         <form className='was-validated'>

@@ -17,12 +17,12 @@ export default function About() {
     return (
         <div className='container text-center'>
             <div className='d-flex flex-column justify-content-center align-items-center'>
-                <h2 className='m-3'><u>About Me</u></h2>
+                <h2 className='m-5'><u>About Me</u></h2>
 
-                <img src={picture} alt="Alyssa Lopez" className='rounded mb-4' style={styles.img}/>
+                <img src={picture} alt="Alyssa Lopez" className='rounded mb-5' style={styles.img}/>
 
 
-                <p className='text-center mb-4' style={styles.p}>
+                <p className='text-center mb-5' style={styles.p}>
                     My name is Alyssa Lopez and I am an aspiring web page developer. I recently decided to change
                     career paths but am already putting in the work to follow my new dream. My previous career path
                     was related to law enforcement and as such, I have an Associate's Degree in Criminal Justice.

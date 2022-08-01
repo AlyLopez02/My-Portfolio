@@ -1,5 +1,18 @@
-.background-img {
-    background-image: url('../../images/footer.png');
-    min-height: 152px;
-    background-repeat: repeat;
-  }
+.background-footer {
+  background-image: url('../../images/footer.png');
+  min-height: 152px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+@media screen and (max-width: 1311px){
+.background-footer {
+  background-size: auto;
+}
+}
+
+@media screen and (max-width: 575px){
+.background-footer {
+  background-repeat: repeat;
+}
+}
