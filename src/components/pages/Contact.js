@@ -7,21 +7,21 @@ export default function Contact() {
       <h2 className='text-center m-5'><u>Contact Page</u></h2>
 
       <div className='container mb-5'>
-        <form className='was-validated'>
+        <form className='was-validated' action="https://getform.io/f/60a56772-a9e1-4ca8-92a1-d463e374a1b1" method='POST'>
 
           <div class="mb-3">
             <label for="name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="name" required />
+            <input type="text" class="form-control" id="name" name="name-input" required />
             <div className='invalid-feedback'>Please input your name!</div>
           </div>
           <div class="mb-3">
             <label for="email" class="form-label">Email address</label>
-            <input type="text" id="email" class="form-control" pattern='^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$' required />
+            <input type="text" id="email" class="form-control" pattern='^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$' name="email-input" required />
             <div className='invalid-feedback'>Please input your email correctly!</div>
           </div>
           <div class="mb-3">
             <label for="message" class="form-label">Message</label>
-            <textarea type="text" class="form-control" id="message" required />
+            <textarea type="text" class="form-control" id="message" name="message-input" required />
             <div className='invalid-feedback'>Please input a message!</div>
           </div>
           <div class="col-12">
