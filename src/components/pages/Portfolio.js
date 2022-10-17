@@ -4,7 +4,7 @@ import Project from '../Project/Project'
 // images
 import adventure from '../../images/adventure-adviser.png';
 import cloud from '../../images/cloud-control.png';
-import quiz from '../../images/code-quiz.png'
+import excelsior from '../../images/excelsior-emporium.png'
 import planner from '../../images/daily-planner.png'
 import noteTaker from '../../images/note-taker.png';
 import passwordGenerator from '../../images/password-generator.png';
@@ -16,6 +16,14 @@ export default function Portfolio() {
       <h2 className='text-center m-5'><u>Portfolio</u></h2>
 
       <div className='d-flex flex-wrap justify-content-center'>
+      <Project
+          name={'Excelsior Emporium'}
+          image={excelsior}
+          deployedApp={'https://excelsior-emporium-jcd.herokuapp.com/'}
+          repo={'https://github.com/jcdoran33/Excelsior-Emporium'}
+          description={'This project is an e-commerce website where one can gain access to items and experiences straight from the Marvel Universe.'}
+          tech={'Node.js, React, GraphQL, MongoDB/Mongoose, Apollo Server Express, Stripe API, and JSON Web Token & Bcrypt'} />
+
         <Project
           name={'Adventure Adviser'}
           image={adventure}
@@ -32,17 +40,6 @@ export default function Portfolio() {
           repo={'https://github.com/AlyLopez02/Cloud-Control'}
           description={'Cloud Control is a website that shows the user the weather of a city they search.'}
           tech={'Google Fonts, Bootstrap, jQuery, and OpenWeather One Call & Geocoding APIs'} />
-
-
-
-        <Project
-          name={'Code Quiz'}
-          image={quiz}
-          deployedApp={'https://alylopez02.github.io/Code-Quiz/'}
-          repo={'https://github.com/AlyLopez02/Code-Quiz'}
-          description={'This project is a quiz to help test the user on some coding questions.'}
-          tech={'JavaScript'} />
-
 
 
         <Project

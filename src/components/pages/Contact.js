@@ -6,6 +6,11 @@ export default function Contact() {
     <div className='container align-items-center'>
       <h2 className='text-center m-5'><u>Contact Page</u></h2>
 
+      <div class="alert alert-warning text-center" role="alert">
+        This form is currently not working so please contact me directly with the information provided below it!
+      </div>
+
+
       <div className='container mb-5'>
         <form className='was-validated' action="https://getform.io/f/60a56772-a9e1-4ca8-92a1-d463e374a1b1" method='POST'>
 
