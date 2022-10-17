@@ -6,9 +6,6 @@ export default function Contact() {
     <div className='container align-items-center'>
       <h2 className='text-center m-5'><u>Contact Page</u></h2>
 
-      <div class="alert alert-warning text-center" role="alert">
-        This form is currently not working so please contact me directly with the information provided below it!
-      </div>
 
 
       <div className='container mb-5'>
