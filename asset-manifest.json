@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.feeb6f48.css",
-    "main.js": "/My-Portfolio/static/js/main.a89eb117.js",
+    "main.js": "/My-Portfolio/static/js/main.54251109.js",
     "static/media/Alyssa-Lopez.jpeg": "/My-Portfolio/static/media/Alyssa-Lopez.f6dcb186349879708aeb.jpeg",
     "static/media/adventure-adviser.png": "/My-Portfolio/static/media/adventure-adviser.17a1f87f897c4e137e36.png",
     "static/media/excelsior-emporium.png": "/My-Portfolio/static/media/excelsior-emporium.a0ae60786f89e009dc35.png",
@@ -14,10 +14,10 @@
     "static/media/note-taker.png": "/My-Portfolio/static/media/note-taker.01cbeca0cca667e7299e.png",
     "index.html": "/My-Portfolio/index.html",
     "main.feeb6f48.css.map": "/My-Portfolio/static/css/main.feeb6f48.css.map",
-    "main.a89eb117.js.map": "/My-Portfolio/static/js/main.a89eb117.js.map"
+    "main.54251109.js.map": "/My-Portfolio/static/js/main.54251109.js.map"
   },
   "entrypoints": [
     "static/css/main.feeb6f48.css",
-    "static/js/main.a89eb117.js"
+    "static/js/main.54251109.js"
   ]
 }
