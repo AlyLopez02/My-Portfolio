@@ -15,10 +15,6 @@ Download these files from this GitHub Repository and then type `npm i` in your t
 ## Usage *
 Type `npm start` into the same terminal you used for the installation. Then, browse my portfolio!
 
-## Some Problems
-- I was unable to make the requirement warnings for the contact form only appear when one clicked out of them.
-- The contact form itself does not yet work.
-
 ## Deployed Application
 Here is a screenshot of the deployed application:
 
