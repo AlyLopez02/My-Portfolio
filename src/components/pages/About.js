@@ -23,12 +23,12 @@ export default function About() {
 
 
                 <p className='text-center mb-5' style={styles.p}>
-                    My name is Alyssa Lopez and I am an aspiring web page developer. I recently decided to change
-                    career paths but am already putting in the work to follow my new dream. My previous career path
+                    My name is Alyssa Lopez and I am an aspiring web page developer. Back in 2022, I decided to change
+                    career paths and have since put in the work to follow my new dream. My previous career path
                     was related to law enforcement and as such, I have an Associate's Degree in Criminal Justice.
-                    Moving back to the present, I am currently participating in Rutger's Coding Boot Camp to learn
-                    what I need to know to become a web page developer. In the portfolio tab, you will see come of the projects I have
-                    completed while in the program thus far. Before you look at them, let's learn a little more
+                    In August 2022, I graduated from Rutger's Coding Boot Camp after learning the basics of
+                    what I needed to know to become a web page developer. In the portfolio tab, you will see some of the projects I
+                    completed while in the program. Before you look at them, let's learn a little more
                     about me outside of work!
 
                     My hobbies include crochet, knitting, reading, and playing video games. I love creating things,
